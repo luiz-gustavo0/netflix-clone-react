@@ -1,8 +1,8 @@
-# netflix clone
+# Netflix clone
 
 ## Sobre
 
-Recriando uma página do netflix para fins de estudo, atraves do <a href="https://www.youtube.com/watch?v=tBweoUiMsDg&t=6522s"> link. </a>
+Recriando uma página do netflix para fins de estudo, utilizando os conceitos abordados neste <a href="https://www.youtube.com/watch?v=tBweoUiMsDg&t=6522s" target="_blank" rel=noopener> video. </a>
 
 ## Como rodar a aplicação
 
