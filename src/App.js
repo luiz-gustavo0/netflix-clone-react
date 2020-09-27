@@ -3,10 +3,12 @@ import Api from './services/Api';
 import './App.css';
 import MovieRow from './components/MovieRow';
 import FeatureMovie from './components/FeatureMovie';
+import Header from './components/Header';
 
 function App() {
   const [movieList, setMovieList] = React.useState([]);
   const [featureData, setFeatureData] = React.useState(null);
+  const [balckHeader, setBlackHeader] = React.useState(false);
 
   React.useEffect(() => {
     //lista total
@@ -28,8 +30,24 @@ function App() {
     loadAll();
   }, []);
 
+  React.useEffect(() => {
+    const scrollListener = () => {
+      if (window.scrollY > 10) {
+        setBlackHeader(true);
+      } else {
+        setBlackHeader(false);
+      }
+    };
+    window.addEventListener('scroll', scrollListener);
+
+    return () => {
+      window.removeEventListener('scroll', scrollListener);
+    };
+  }, []);
+
   return (
     <div className="page">
+      <Header black={balckHeader} />
       {featureData && <FeatureMovie item={featureData} />}
 
       <section className="lists">
@@ -38,6 +56,19 @@ function App() {
             <MovieRow key={key} title={item.title} items={item.items} />
           ))}
       </section>
+      <footer>
+        <p> Desenvolvido para fins de estudo. </p>
+        <p> Direitos de imagem para Netiflix.</p>
+        <p> Dados pegos do site Themoviedb.org</p>
+      </footer>
+      {movieList.length <= 0 && (
+        <div className="loading">
+          <img
+            src="https://cdn.lowgif.com/small/0534e2a412eeb281-the-counterintuitive-tech-behind-netflix-s-worldwide.gif"
+            alt="loading"
+          />
+        </div>
+      )}
     </div>
   );
 }
