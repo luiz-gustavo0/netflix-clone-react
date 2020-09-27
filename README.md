@@ -1,4 +1,4 @@
-# Netflix clone ui
+# Netflix UI clone
 
 ## Sobre
 
