@@ -1,4 +1,4 @@
-# Netflix UI clone
+# Netflix / UI clone
 
 ## Sobre
 
@@ -34,5 +34,7 @@ Execute a aplicação:
 ```sh
 npm start
 ```
+
+
 
 <strong>LinkedIn:</strong> [@Luiz Gustavo Santos](linkedin.com/in/luiz-gustavo-santos-2a10ab196)
