@@ -37,4 +37,4 @@ npm start
 
 
 
-<strong>LinkedIn:</strong> [@Luiz Gustavo Santos](linkedin.com/in/luiz-gustavo-santos-2a10ab196)
+<strong>LinkedIn:</strong> [@Luiz Gustavo Santos](https://linkedin.com/in/luiz-gustavo-santos-2a10ab196)
