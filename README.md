@@ -7,6 +7,7 @@ Recriando uma página do netflix para fins de estudo, utilizando os conceitos ab
 ## Api key
 
 É necessário gerar uma chave para a api utilizada neste projeto.
+
 Para gerar sua chave basta acessar o site <a href="https://developers.themoviedb.org/3/getting-started/introduction" target="_blank" rel=noopener> Tmdb. </a>
 
 ## Como rodar a aplicação
