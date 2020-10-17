@@ -15,7 +15,7 @@ export default {
         slug: 'originals',
         title: 'Originais da Netflix',
         items: await basicFetch(
-          `/discover/tv?with_network=213&language=pt-BR&api_key=${process.env.REACT_APP_API_KEY}`,
+          `/discover/tv?with_network=213&language=pt-BR&api_key=${process.env.NODE_ENV}`,
         ),
       },
       {
