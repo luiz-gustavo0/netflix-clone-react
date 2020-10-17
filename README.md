@@ -4,6 +4,9 @@
 
 Recriando uma página do netflix para fins de estudo, utilizando os conceitos abordados neste <a href="https://www.youtube.com/watch?v=tBweoUiMsDg&t=6522s" target="_blank" rel=noopener> video. </a>
 
+## Preview do site
+<a href="https://netflix-clone-ui.netlify.app/" target="_blank" rel=noopener>netflix-clone-ui</a>
+
 ## Api key
 
 É necessário gerar uma chave para a api utilizada neste projeto.
