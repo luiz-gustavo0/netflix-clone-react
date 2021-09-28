@@ -18,7 +18,19 @@ header.black {
 }
 
 .header--logo {
-  height: 25px;
+  min-height: 25px;
+}
+
+.header--logo a {
+  text-decoration: none;
+}
+
+.header--logo span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fe0001;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 
 .header--logo img {

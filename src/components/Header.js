@@ -1,13 +1,14 @@
 import React from 'react';
 import './Header.css';
-import logo from '../img/logo-bgremover.png';
+// import logo from '../img/logo-bgremover.png';
 
 const Header = ({ black }) => {
   return (
     <header className={black ? 'black' : ''}>
       <div className='header--logo'>
         <a href='/'>
-          <img src={logo} alt='Netflix' />
+          {/* <img src={logo} alt='Netflix' /> */}
+          <span>FlixFilmes</span>
         </a>
       </div>
       <div className='header--user'>
