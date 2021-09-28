@@ -1,5 +1,7 @@
 # Netflix / Clone
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8a5ec813-e963-4bf2-8631-85739359f693/deploy-status)](https://app.netlify.com/sites/myfilmes-react/deploys)
+
 ## Sobre
 
 Recriando uma página do netflix para fins de estudo, utilizando os conceitos abordados neste <a href="https://www.youtube.com/watch?v=tBweoUiMsDg&t=6522s" target="_blank" rel=noopener> video. </a>
@@ -35,7 +37,5 @@ Execute a aplicação:
 ```sh
 npm start
 ```
-
-
 
 <strong>LinkedIn:</strong> [@Luiz Gustavo Santos](https://linkedin.com/in/luiz-gustavo-santos-2a10ab196)
